@@ -1,0 +1,222 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+/* #9be644; */
+
+/* Estilos generales de la pagina */
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilos header */
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/img/header-fondo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-header {
+    background-color: rgba(0, 0, 0, .8);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    padding: 10px 25px;
+}
+
+.container-header-logo-gopass {
+    align-items: center;
+    grid-column: auto;
+}
+
+.container-header-logo-gopass img {
+    width: 100px;
+}
+
+.burguer-button {
+    display: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.burguer-button i {
+    color: #9be644;
+}
+
+
+.container-header-button-login {
+    padding-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-header-button-login a {
+    color: #9be644;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.container-header-text {
+    padding: 0px 25px;
+    background-color: rgba(0, 0, 0, .8);
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+}
+
+.container-header-text P {
+    font-size: 5.3em;
+    color: #fff;
+    line-height: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container-header-nav {
+    padding: 15px 0;
+}
+
+.container-header-nav .nav-header ul {
+    background-color: rgba(0, 0, 0, .8);
+    margin: 0;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    text-align: center;
+}
+
+.container-header-nav .nav-header ul li {
+    display: grid;
+    justify-items: center;
+}
+
+.container-header-nav .nav-header ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #9be644;
+    position: relative;
+    padding-bottom: 0px;
+    padding-bottom: 1.3%;
+}
+
+.container-header-nav .nav-header ul li a::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #9be644;
+    position: absolute;
+    bottom: 0;
+    transition: all 1s;
+}
+
+.container-header-nav .nav-header ul li a:hover::before {
+    width: 100%;
+}
+
+/* Fin estilos Header */
+
+@media screen and (max-width: 1024px) {
+    .container-header-text P {
+        font-size: 5em;
+    }
+
+    .container-header-nav .nav-header ul li a {
+        font-size: 1em;
+        justify-self: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-header-text P {
+        font-size: 4em;
+    }
+
+    .container-header-nav .nav-header ul li a {
+        font-size: 1em;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        margin: 0;
+        padding: 0;
+        background-image: url("../assets/img/responsive/header-fondo-responsive.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .burguer-button {
+        display: grid;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .container-header-text {
+        background-color: initial;
+    }
+
+    .container-header {
+        background-color: initial;
+
+    }
+
+    .container-header-button-login {
+        display: none;
+    }
+
+    .container-header-text P {
+        font-size: 2em;
+    }
+
+    .container-header-nav {
+        display: none;
+    }
+
+    .container-header-button-login {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-header-logo-gopass img {
+        width: 50px;
+    }
+
+    .burguer-button i {
+        font-size: 1em;
+    }
+
+    .container-header-text P {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width:320px){
+    header{
+        border: 10px solid red;
+    }
+    
+}
