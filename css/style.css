@@ -90,11 +90,11 @@ header {
 }
 
 .container-header-nav {
+    background-color: rgba(0, 0, 0, .8);
     padding: 15px 0;
 }
 
 .container-header-nav .nav-header ul {
-    background-color: rgba(0, 0, 0, .8);
     margin: 0;
     padding: 0px;
     display: grid;
@@ -135,6 +135,10 @@ header {
 /* Fin estilos Header */
 
 @media screen and (max-width: 1024px) {
+    .container-header-button-login a {
+        font-size: 1.3em;
+    }
+    
     .container-header-text P {
         font-size: 5em;
     }
