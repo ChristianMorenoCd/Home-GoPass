@@ -274,13 +274,12 @@ header {
         font-size: 5em;
 
     }
-    .container-header-button-login a {
-        font-size: 1.2em;
+
+    .container-header-button-login a{
+        font-size: 19.2px;
     }
 
-   
-
-    .container-header-nav .nav-header ul li a {
+    .container-header-nav .nav-header ul li a{
         font-size: 1.2em;
         justify-self: center;
     }
