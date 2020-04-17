@@ -276,7 +276,7 @@ header {
     }
 
     .container-header-button-login a {
-        font-size: 19.2px;
+        font-size: 1.2em;
     }
 
     .container-header-nav .nav-header ul li a {
@@ -403,10 +403,6 @@ header {
         align-items: center;
     }
 
-    .container-description-image-responsive img {
-        width: 415px;
-    }
-
     .container-description-image {
         display: none;
     }
@@ -428,11 +424,9 @@ header {
 
     .container-description-text {
         font-size: 2em;
-    }
-
-   
+    } 
     .container-description-image-responsive img {
-        width: 470px;
+        width: 415px;
     }
 }
 
