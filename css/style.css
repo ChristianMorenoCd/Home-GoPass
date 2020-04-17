@@ -1,6 +1,12 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap');
+/* 320px
+480px
+600px
+768px
+900px
+1200px */
 /* #9be644; */
 
 /* Estilos generales de la pagina */
@@ -119,10 +125,7 @@ header {
 }
 
 
-@media screen and (max-width:1024px){
-    body{ 
-        font-size: 16px; 
-    }
+@media screen and (max-width:1200px){
     .container-header-button-login a {
         font-size: 1.3rem;
     }
@@ -131,6 +134,11 @@ header {
     }
     .container-header-nav .nav-header ul li a {
         font-size: 1.3rem;
+    }
+}
+@media screen and (max-width:900px){
+    .container-header-nav .nav-header ul li a {
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width:768px){
@@ -144,7 +152,7 @@ header {
         font-size: 1rem;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     header {
         margin: 0;
         padding: 0;
@@ -172,7 +180,15 @@ header {
     }
     .container-header-nav {
         display: none;
-    }       
+    }  
+}
+@media screen and (max-width:480px){  
+    .container-header-logo-gopass img {
+        width: 70px;
+    }
+    .container-header-text P {
+        font-size: 1.8rem;
+    }
 }
 @media screen and (max-width:320px){
     .container-header-logo-gopass img {
