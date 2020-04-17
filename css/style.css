@@ -127,6 +127,7 @@ header {
 
 @media screen and (max-width:1200px){
     .container-header-button-login a {
+        border: 1px solid red;
         font-size: 1.3rem;
     }
     .container-header-text P {
