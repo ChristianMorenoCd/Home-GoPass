@@ -131,12 +131,12 @@ header {
 .container-header-nav .nav-header ul li a:hover::before {
     width: 100%;
 }
+
 /* Fin estilos Header */
 
 /* Inicio Estilos sección Home */
 .home {
     height: 600px;
-    border: 1px solid red;
     background-image: url("../assets/img/home-fondo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -163,6 +163,7 @@ header {
     color: gray;
     font-weight: bold;
 }
+
 .home-container-text .text-strong {
     color: #585857;
 }
@@ -171,6 +172,7 @@ header {
     color: #9be644;
     font-size: 1.4em;
 }
+
 .home-container-image {
     margin: 0;
     padding: 0;
@@ -199,7 +201,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     .container-header-button-login a {
-        font-size: .7em;
+        font-size: .5em;
     }
 
     .container-header-text P {
@@ -266,7 +268,7 @@ header {
     }
 
     .home {
-        /* height: 600px; */
+        height: 480px;
         background-image: url("../assets/img/responsive/home-fondo-responsive.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -277,7 +279,7 @@ header {
     .home-container-text p {
         font-size: 1.1em;
     }
-    
+
     .home-container-text .text-strong strong {
         color: #9be644;
         font-size: .9em;
@@ -296,41 +298,38 @@ header {
     .container-header-text P {
         font-size: 1em;
     }
-    
+
     .home {
         height: 400px;
-  
+
     }
 
-    
-        .home-container {
-            margin: 0;
-            padding: 0%;
-            display: grid;
-            grid-template-rows: 100px 50px 50px;
-            justify-items: center;
-        }
+
+    .home-container {
+        margin: 0;
+        padding: 0%;
+        display: grid;
+        grid-template-rows: 100px 50px 50px;
+        justify-items: center;
+    }
 
 
     .home-container-text p {
         font-size: .7em;
     }
-    
+
     .home-container-text .text-strong strong {
         color: #9be644;
         font-size: .7em;
     }
+
     .home-container-image img {
         width: 150px;
     }
 
     .home-container-link a {
-
         font-size: 1em;
-       
     }
-    
 }
 
-
-@media (max-width:320px){}
+@media (max-width:320px) {}
