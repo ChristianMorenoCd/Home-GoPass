@@ -127,7 +127,7 @@ header {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 1200px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .container-header-button-login a {
         border: 1px solid blue;
@@ -143,7 +143,6 @@ header {
 
 @media screen and (max-width:1200px){
     .container-header-button-login a {
-        border: 1px solid red;
         font-size: 1.3rem;
     }
     .container-header-text P {
